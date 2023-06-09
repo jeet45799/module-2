@@ -1,0 +1,7 @@
+str=input("enter a string :")
+s=input("new string :")
+x=int(input("enter position :"))
+words=str.split()
+words.insert(x,s)
+strnew=" ".join(words)
+print(strnew)
